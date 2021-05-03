@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Inria+Sans&display=swap');
+@import url(menu_2.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.container_sec{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: block;
+}
+
+section{
+    display: flex;
+    width: 100;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    background-color: black;
+    align-items: center;
+    height: 380px;
+    opacity: 95%;
+    margin-top: 60px;
+}
+
+#titulo_2{
+    margin-top: 30px;
+}
+
+section h4{
+    margin-bottom: 10px;
+}
+
+section p{
+    color: rgb(202, 202, 202);
+    margin-bottom: 15px;
+    width: 500px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+section img{
+    height: 250px;
+}
+
+#titulo_11{
+    color: white;
+    font-size: 50px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+#titulo_22{
+    color: white;
+    font-size: 50px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+
+.container_ter{
+     width: 400px;
+     height: 300px;
+     padding: 50px;
+     padding-left: 40px;
+     background-color: white;
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+     transition: all 300ms;
+}
+
+.container_ter1{
+    width: 285px;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgb(246, 193, 193);
+    text-align: center;
+    position: relative;
+    transition: all 100ms;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.container_ter img,
+.container_ter p,
+.container h4,
+.container svg{
+    position: relative;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.container_ter p{
+    font-size: 14px;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.container h4{
+    font-size: 30px;
+    transform: translateY(30px);
+}
+
+#Layer_1{
+    width: 90px;
+    height: 90px;
+    transform: translateY(30px);
+    margin-bottom: 5px;
+}
+
+#Layer_3{
+    width: 90px;
+    height: 90px;
+    transform: translateY(30px);
+    margin-bottom: 5px;
+}
+
+#Layer_2{
+    width: 200px;
+    top: 25px;
+    transform: translateY(60px);
+}
+
+#img2{
+    width: 80px;
+    height: 80px;
+    transform: translateY(30px);
+}
+
+#img3{
+    height: 50px;
+    transform: translateY(30px);
+}
+
+.container_ter .hover_div{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 300px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+
+
+.container_ter:hover .hover_div{
+    width: 600px;
+    height: 600px;
+    top: -100px;
+    left: -120px;
+}
+
+.container_ter:hover #Layer_1{
+    transform: translateY(0);
+    
+}
+
+.container_ter:hover #Layer_3{
+    transform: translateY(0);
+    
+}
+
+.container_ter:hover #Layer_2{
+    transform: translateY(0);
+    margin-bottom: 30px;
+    
+}
+
+.container_ter:hover #img2{
+    transform: translateY(0);
+}
+
+.container_ter:hover #img3{
+    transform: translateY(0);
+}
+
+.container_ter:hover h4{
+    transform: translateY(0);
+    color: white;
+    font-size: 14px;
+}
+
+.container_ter:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    color: white;
+    margin-top: 10px;
+}
+
+.container_ter:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container_ter1:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.container_ter:hover .hover_div{
+    background-color: #6e6c6c;
+}
+
+.box1{
+    background: linear-gradient(to bottom,#F26B76, #f02d3d);
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.box2{
+    background: linear-gradient(to bottom,#F26B76, #f02d3d);
+    margin-right: 40px;
+}
+
+.box3{
+    background: linear-gradient(to bottom,#F26B76, #f02d3d);
+    margin-right: 50px;
+}
+
+.box4{
+    margin-left: 45px;
+}
+
+.container_ter1 h4{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.container_ter1:hover{
+    cursor: pointer;
+}
+
